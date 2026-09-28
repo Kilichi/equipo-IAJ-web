@@ -73,5 +73,32 @@ footer {
   text-align: center;
 }
 
-/* Issue #4 · Paleta y tipografía del equipo.
-   Escribid aquí vuestros cambios de color y de tipo de letra. */
+/* Issue #4 · Paleta y tipografía del equipo */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #2b2d42;
+  background-color: #edf2f4;
+}
+
+header {
+  background-color: #2b2d42;
+}
+
+header nav a:hover {
+  color: #ef233c;
+}
+
+.miembro {
+  background-color: #ffffff;
+  border-color: #8d99ae;
+}
+
+.miembro .rol {
+  color: #d90429;
+}
+
+footer {
+  background-color: #2b2d42;
+  color: #ffffff;
+}
